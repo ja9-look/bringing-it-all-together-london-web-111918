@@ -1,6 +1,8 @@
 require "spec_helper"
 require 'pry'
 
+DB[:conn]
+
 describe "Dog" do
 
   let(:teddy) {Dog.new(name: "Teddy", breed: "cockapoo")}
